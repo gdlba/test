@@ -1477,13 +1477,22 @@
             position: relative;
         }
 
-        .photo_box-show #pic {
+        .photo_box-show-m {
+            float: left;
+            padding: 0px 10px;
+            width: 50%;
+            position: relative;
+        }
+
+        .photo_box-show #pic,
+        .photo_box-show-m #pic {
             width: 100%;
             padding: 0px;
             float: none;
         }
 
-        .magnifying-glass {
+        .magnifying-glass,
+        .magnifying-glass-m {
             width: 32px;
             height: 32px;
             position: absolute;
@@ -1491,10 +1500,14 @@
             right: 10px;
         }
 
-        .magnifying-glass i {
-            font-size: 32px;
+        .magnifying-glass i,
+        .magnifying-glass-m i {
+            position: absolute;
+            font-size: 24px;
             color: #fff;
             opacity: 0.8;
+            bottom: 4px;
+            right: 4px;
         }
     </style>
 
@@ -1643,35 +1656,6 @@
         </div>
     </div>
 
-    <style>
-        .photo_box-show-2 {
-            float: left;
-            padding: 0px 10px;
-            width: 50%;
-            position: relative;
-        }
-
-        .photo_box-show-2 #pic {
-            width: 100%;
-            padding: 0px;
-            float: none;
-        }
-
-        .magnifying-glass-2 {
-            width: 32px;
-            height: 32px;
-            position: absolute;
-            bottom: 0px;
-            right: 10px;
-        }
-
-        .magnifying-glass-2 i {
-            font-size: 32px;
-            color: #fff;
-            opacity: 0.8;
-        }
-    </style>
-
     <div class="photo_box-m carousel slide carousel-fade" data-carousel="pause" data-interval="false" id="photo_box-m">
 
         <a class="left" data-slide="prev" href="#photo_box-m">
@@ -1684,17 +1668,17 @@
         <div class="carousel-inner">
             <div class="item active">
                 <a href="javascript:" id="1" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Armillary-Shpere_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
                 <a href="javascript:" id="2" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Archangel-Michael_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1703,18 +1687,18 @@
 
             <div class="item">
                 <a href="javascript:" id="3" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Archangel-Gabriel_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
 
                 <a href="javascript:" id="4" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Entryway-Colonnade_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1723,17 +1707,17 @@
 
             <div class="item">
                 <a href="javascript:" id="5" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Doges-Palace_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
                 <a href="javascript:" id="6" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Four-Heroic-Episodes_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1743,17 +1727,17 @@
 
             <div class="item">
                 <a href="javascript:" id="7" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/CAd-Oro_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
                 <a href="javascript:" id="8" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Campanile-tower_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1762,17 +1746,17 @@
 
             <div class="item">
                 <a href="javascript:" id="9" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/Contarini-fasan-palace_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
                 <a href="javascript:" id="10" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/StMark-Lion_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1781,18 +1765,18 @@
 
             <div class="item">
                 <a href="javascript:" id="11" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/StMarks-Sqare-Clock_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
 
                 </a>
                 <a href="javascript:" id="12" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/The-Apotheosis-of-Venice_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
@@ -1801,18 +1785,18 @@
 
             <div class="item">
                 <a href="javascript:" id="13" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/The-Bridge-of-Sighs_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
                 </a>
 
                 <a href="javascript:" id="14" onclick="openmodal(this)">
-                    <div class="photo_box-show-2">
+                    <div class="photo_box-show-m">
                         <img id="pic" src="https://assets.sandsresortsmacao.cn/content/dam/macau/brand/vm/img/landmarks/The-Clock-Tower_500x500.jpg">
-                        <div class="magnifying-glass-2">
+                        <div class="magnifying-glass-m">
                             <i class="fa fa-search-plus"></i>
                         </div>
                     </div>
