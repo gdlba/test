@@ -27,3 +27,21 @@ Likes:286
 …"
 
 http://www.instagram.com/p/BaaXyRJFW_4/?tagged=venetianmacao
+
+-----------------------------------------------------------------------------------
+
+aym210
+
+https://www.instagram.com/aym210/
+
+273
+
+"昨日からタビジョレポーターとして @lifestock_yuuki とマカオに来てるよ🇲🇴初マカオ楽しい☺️☀️ @tabi_jyo でもストーリーいっぱいupしてるので見てね🤤💓
+.
+.
+#ParisianMacao
+#VenetianMacao 
+#タビジョレポーター
+#タビジョ公式インスタグラマー"
+
+http://www.instagram.com/p/BXXDDNxA3Qi/?tagged=venetianmacao
